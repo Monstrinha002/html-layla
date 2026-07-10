@@ -1,18 +1,33 @@
 body{background-color:#eef6d8;
     padding-top: 70px;
-font-family: Georgia, serif}
-h1{color:#2f6b3b;
-background-color:#dfffcd ;
+font-family: Georgia, serif;
+margin: 0;
+background-image: url(fundo.png);
+background-size:cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+
+h1{color:#012701;
     text-align:center;
+text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+    padding: 0px;
    font-style:italic;
    font-family: "Cinzel Decorative", serif;
    font-size:28px;
-  border-style:solid;
-    border-width:5px;
-    border-color:#302d58;
+    border:none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0,.15);
+    letter-spacing: 3px;
+ 
 } 
 
-
+h1 ::after{
+    content: "──────────────── ❀ ────────────────";
+display: block;
+color: #012701;
+font-size: 22px;
+margin-top: 10px;}
     p{color:#444;
     font-size:18px;
       text-indent: 30px;
@@ -50,26 +65,39 @@ text-align:center;
     transition: 0.3s;}   
      nav{position: sticky;
     top: 0;
-    background:#eef6d8;
-    padding: 15px;
+   background-image: url(navfundo.png);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+    border: 2px solid #8b6b2e;
+    padding: 10px 20px;
+    border-radius: 0px;
+    text-decoration:none;
     text-align:center;
     z-index: 1000;
     display:flex;
-    gap:20px;
+    gap:35px;
     justify-content:center;
-    margin:20px;
+    margin:0px;
+
+
+
 }
 nav a{
     text-decoration:none;
     font-weight:bold;
     font-size:22px;
+    color:#8b6b2e;
+    text-shadow: 1px 1px 3px rgba(7, 0, 0, 0.8);
+    transition: all 0.3s ease;
+   
 }
 a:hover{
-    color:#4B0082;
-  background:#D8BFD8 ;
+    color:#0a0949;
+  background:#D8E8C8 ;
 }
     a:visited{ color:#006400;}
-a{color:#4B0082;}
+a{color:#8b6b2e;}
 img{
     width: 150px;
     height: 220px;
